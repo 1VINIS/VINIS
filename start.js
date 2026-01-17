@@ -1,5 +1,7 @@
 // قائمة المعرفات المسموح لها (يمكنك زيادتها)
-const AUTHORIZED_KEYS = ["1234567890", "2026202600", "0011223344", "7788990011"];
+const AUTHORIZED_KEYS = [
+    "1111122222",
+];
 
 function limitInput(el) {
     if(el.value.length > 10) el.value = el.value.slice(0, 10);
@@ -73,4 +75,5 @@ function createCodeRain() {
         rain.appendChild(span);
     }
 }
+
 createCodeRain();
