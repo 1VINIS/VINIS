@@ -10,6 +10,7 @@ const AUTHORIZED_KEYS = [
     "1545657187",
     "1545675885",
     "1545661731",
+    "1545670149",
 ];
 
 function limitInput(el) {
@@ -86,6 +87,7 @@ function createCodeRain() {
 }
 
 createCodeRain();
+
 
 
 
