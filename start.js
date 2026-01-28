@@ -1,6 +1,7 @@
 // قائمة المعرفات المسموح لها (يمكنك زيادتها)
 const AUTHORIZED_KEYS = [
     "1111122222",
+    "1545655895",
 ];
 
 function limitInput(el) {
@@ -77,3 +78,4 @@ function createCodeRain() {
 }
 
 createCodeRain();
+
